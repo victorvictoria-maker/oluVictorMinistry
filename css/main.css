@@ -2993,6 +2993,17 @@ html.no-csstransitions .hero-content {
   padding-top: 0 !important;
 }
 
+#countdown .social-list__item {
+  font-size: 1.2em;
+}
+
+#textDay,
+#textHour,
+#textMinute,
+#textSecond {
+  color: #dd4043;
+}
+
 .social-content {
   max-width: 1000px;
 }
