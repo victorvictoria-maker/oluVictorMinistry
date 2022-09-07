@@ -2989,6 +2989,10 @@ html.no-csstransitions .hero-content {
   background-color: #000000;
 }
 
+#countdown {
+  padding-top: 0 !important;
+}
+
 .social-content {
   max-width: 1000px;
 }
