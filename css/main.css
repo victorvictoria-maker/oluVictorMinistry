@@ -2058,7 +2058,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-hero {
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   min-height: 82rem;
   overflow: hidden;
   background-image: linear-gradient(rgba(5, 3, 3, 0.6), rgba(11, 9, 9, 0.3)), url(images/background-image.jpg);
@@ -3134,7 +3134,7 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 12rem;
   padding-bottom: 8rem;
-  background-color: #3b0d11;
+  background-color: rgba(29, 29, 144, 0.9);
   font-family: "Open Sans", sans-serif;
   font-size: 1.7rem;
   line-height: 1.882;
