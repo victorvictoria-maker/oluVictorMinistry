@@ -125,7 +125,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: rgb(188, 6, 6);
+  color: #FE0000;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1612,6 +1612,18 @@ input::-moz-focus-inner {
 /* ------------------------------------------------------------------- 
  * ## events list
  * ------------------------------------------------------------------- */
+#mission a,
+#vision a {
+  color: rgb(38, 38, 242) !important;
+}
+
+#mission a:hover,
+#vision a:hover {
+  color: rgb(38, 38, 242) !important;
+  border-bottom: 1px solid rgb(38, 38, 242) !important;
+}
+
+
 .events-list .column:nth-child(2n+1) {
   padding-right: 2.4vw;
 }
@@ -2058,8 +2070,8 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-hero {
   width: 100%;
-  height: 95vh;
-  min-height: 82rem;
+  /* height: 95vh; */
+  /* min-height: 82rem; */
   overflow: hidden;
   background-image: linear-gradient(rgba(5, 3, 3, 0.6), rgba(11, 9, 9, 0.3)), url(images/background-image.jpg);
   position: relative;
@@ -2130,7 +2142,7 @@ input::-moz-focus-inner {
   content: "";
   height: 2px;
   width: 10rem;
-  background-color: rgb(188, 6, 6);
+  background-color: #FE0000;
   position: absolute;
   top: 0;
   left: .8rem;
@@ -2251,7 +2263,7 @@ input::-moz-focus-inner {
 
 .hero-scroll .scroll-link:hover,
 .hero-scroll .scroll-link:focus {
-  color: rgb(188, 6, 6);
+  color: #FE0000;
 }
 
 .hero-scroll::before {
@@ -2519,19 +2531,19 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-about {
   padding-top: 19.6rem;
-  padding-bottom: 19.6rem;
+  padding-bottom: 4.6rem;
   /* background-color: rgba(255, 255, 255, 0.8); */
   background-color: white;
-  color: #3b0d11;
+  /* color: #3b0d11; */
 }
 
 .s-about .subhead {
-  color: #fb8b23;
+  color: rgb(38, 38, 242);
   margin-bottom: 4rem;
 }
 
 .s-about .lead {
-  color: #5f0505;
+  /* color: #5f0505; */
   margin-bottom: 4rem;
 }
 
@@ -2539,8 +2551,8 @@ html.no-csstransitions .hero-content {
   display: block;
   width: 100%;
   margin-right: 0;
-  background-color: #21070a;
-  border-color: #21070a;
+  background-color: #FE0000;
+  border-color: #FE0000;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2726,12 +2738,12 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-events {
   padding-top: 10.4rem;
-  padding-bottom: 16rem;
+  padding-bottom: 8rem;
   background-color: #ffffff;
 }
 
 .s-events .subhead {
-  color: #000000;
+  color: rgb(38, 38, 242);
 }
 
 .events-header {
@@ -2993,15 +3005,16 @@ html.no-csstransitions .hero-content {
   padding-top: 0 !important;
 }
 
-#countdown .social-list__item {
-  font-size: 1.2em;
-}
+/* #countdown .social-list__item {
+  font-size: 20px;
+} */
 
 #textDay,
 #textHour,
 #textMinute,
 #textSecond {
-  color: #dd4043;
+  color: #FE0000;
+  font-size: 28px;
 }
 
 .social-content {
@@ -3149,7 +3162,7 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 12rem;
   padding-bottom: 8rem;
-  background-color: rgba(29, 29, 144, 0.9);
+  background-color: black;
   font-family: "Open Sans", sans-serif;
   font-size: 1.7rem;
   line-height: 1.882;
@@ -3167,15 +3180,15 @@ html.no-csstransitions .hero-content {
 }
 
 .s-footer .btn--footer {
-  border-color: #21070a;
-  background-color: #21070a;
+  border-color: #FE0000;
+  background-color: #FE0000;
   padding: 0 4rem;
 }
 
 .s-footer .btn--footer:hover,
 .s-footer .btn--footer:focus {
-  border-color: #000000;
-  background-color: #000000;
+  border-color: #fb3232;
+  background-color: #fb3232;
 }
 
 .s-footer .row .column:first-child {
@@ -3193,10 +3206,10 @@ html.no-csstransitions .hero-content {
   display: block;
 }
 
-.footer-logo img {
+/* .footer-logo img {
   width: 138px;
   height: 36px;
-}
+} */
 
 /* -------------------------------------------------------------------
  * ## footer list 
@@ -3261,7 +3274,7 @@ html.no-csstransitions .hero-content {
 
 .ss-go-top a {
   display: block;
-  background-color: #000000;
+  background-color: #FE0000;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -3291,7 +3304,7 @@ html.no-csstransitions .hero-content {
 }
 
 .ss-go-top a:hover {
-  background-color: rgb(188, 6, 6);
+  background-color: #FE0000;
   color: #ffffff;
 }
 
