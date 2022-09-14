@@ -1639,6 +1639,7 @@ input::-moz-focus-inner {
 .events-list__item-title a {
   color: #000000;
   border-bottom: 1px solid transparent;
+  font-family: "Open Sans", sans-serif;
 }
 
 .events-list__item-title a:hover,
@@ -1649,7 +1650,7 @@ input::-moz-focus-inner {
 
 .events-list__meta {
   list-style: none;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.667;
