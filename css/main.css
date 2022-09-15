@@ -222,13 +222,19 @@ p img {
   margin: 0;
 }
 
-p.lead {
+p.lead,
+p.lead-2 {
   font-family: "Lora", serif;
   font-weight: 500;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   line-height: 1.857;
   margin-bottom: 3.6rem;
   color: #000000;
+}
+
+p.lead-2 {
+  text-align: center;
+  font-size: 2.5rem !important;
 }
 
 @media screen and (max-width:1200px) {
@@ -236,11 +242,16 @@ p.lead {
     font-size: 2.6rem;
   }
 
+  p.lead-2 {
+    font-size: 3rem !important;
+  }
+
 }
 
 @media screen and (max-width:600px) {
-  p.lead {
-    font-size: 2.2rem;
+  p.lead,
+  p.lead-2 {
+    font-size: 1.5rem;
   }
 
 }
@@ -2531,7 +2542,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 19.6rem;
+  padding-top: 8.6rem;
   padding-bottom: 4.6rem;
   /* background-color: rgba(255, 255, 255, 0.8); */
   background-color: white;
@@ -2540,10 +2551,12 @@ html.no-csstransitions .hero-content {
 
 .s-about .subhead {
   color: rgb(38, 38, 242);
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.3em;
 }
 
-.s-about .lead {
+.s-about .lead,
+.s-about .lead-2 {
   /* color: #5f0505; */
   margin-bottom: 4rem;
 }
@@ -2582,12 +2595,12 @@ html.no-csstransitions .hero-content {
   margin-top: 0;
   text-transform: uppercase;
   letter-spacing: .4rem;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 .about-sched li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  padding-top: 3.2rem;
+  padding-top: 1rem;
   padding-left: 0;
 }
 
@@ -3172,6 +3185,15 @@ html.no-csstransitions .hero-content {
 
 .s-footer a {
   color: #ffffff;
+}
+
+.s-footer .nothing {
+  cursor: pointer;
+  color: rgb(48, 48, 245);
+}
+
+.s-footer .nothing:hover {
+  color: white;
 }
 
 .s-footer h4 {
