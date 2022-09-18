@@ -2759,6 +2759,14 @@ html.no-csstransitions .hero-content {
   cursor: pointer;
 }
 
+.s-events .direction a {
+  color: #030000;
+}
+
+.s-events .direction a:hover {
+  color: #030000;
+}
+
 .s-events .subhead {
   color: rgb(38, 38, 242);
 }
