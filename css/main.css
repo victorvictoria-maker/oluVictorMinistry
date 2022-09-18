@@ -62,7 +62,6 @@
  *
  * =================================================================== */
 
-
 /* ===================================================================
  * # custom block grid STACK breakpoints
  *
@@ -2754,6 +2753,10 @@ html.no-csstransitions .hero-content {
   padding-top: 10.4rem;
   padding-bottom: 8rem;
   background-color: #ffffff;
+}
+
+.s-events .direction {
+  cursor: pointer;
 }
 
 .s-events .subhead {
