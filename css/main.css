@@ -3077,6 +3077,31 @@ html.no-csstransitions .hero-content {
   align-items: center;
 }
 
+.social-list__icon .fa-telegram,
+.social-list .fa-facebook-official {
+  /* background-color: red; */
+  font-size: 1.8em;
+} 
+
+#telegram-icon,
+#telegram,
+#facebook,
+#facebook-icon {
+  background-color: black !important;
+  position: relative;
+  top: -12px;
+}
+
+.fa-telegram,
+.fa-facebook-official {
+  color: black;
+}
+
+#telegram-icon,
+#facebook-icon {
+  background-color: #ffffff !important;
+}
+
 .social-list__icon {
   display: block;
   width: 4.8rem;
