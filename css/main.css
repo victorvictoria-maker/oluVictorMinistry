@@ -94,7 +94,8 @@
 }
 
 #devotional {
-  font-size: 0.4em !important;
+  font-size: 11px !important;
+  padding-left: 15px !important;
 }
 /* ===================================================================
  * # base style overrides
